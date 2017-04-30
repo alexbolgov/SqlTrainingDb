@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="dc3b8bda-19b3-42b9-b3f9-d7d518f6029e" ChangeDateTime="04/30/2017 07:06:07">
+    <Property Name="ElementName" Value="[dbo].[Currency].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Currency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CurrencyId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="062c0155-6c71-479e-b49f-f3f5b58d9271" ChangeDateTime="04/30/2017 07:09:47">
+    <Property Name="ElementName" Value="[dbo].[CurrencyRate].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CurrencyRate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BookValueDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="673d06c5-195a-48ce-994e-e0e6c3509525" ChangeDateTime="04/30/2017 07:15:38">
+    <Property Name="ElementName" Value="[dbo].[Currency].[CurrencyNameRus]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Currency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DescriptionRus" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9cf38c76-bba7-4a14-bfc9-9e1fb6f0ef97" ChangeDateTime="04/30/2017 07:15:45">
+    <Property Name="ElementName" Value="[dbo].[Currency].[CurrencyNameEng]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Currency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DesciptionEng" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0e85d8d2-fa42-4b5b-9cb6-d9bfd2f2e048" ChangeDateTime="04/30/2017 07:15:49">
+    <Property Name="ElementName" Value="[dbo].[Currency].[DesciptionEng]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Currency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DescriptionEng" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="02b2c96d-4d84-441a-8d93-b53397a32ea5" ChangeDateTime="04/30/2017 07:39:48">
+    <Property Name="ElementName" Value="[dbo].[Country].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Country]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CountryID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="727eb809-dc8c-418e-b1dd-1e4c81cea318" ChangeDateTime="04/30/2017 07:46:13">
+    <Property Name="ElementName" Value="[dbo].[OrgUnit].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OrgUnit]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OrgUnitID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="66bcc832-578e-4263-83d3-1060dd02c8cf" ChangeDateTime="04/30/2017 07:51:59">
+    <Property Name="ElementName" Value="[dbo].[Deal].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Deal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BookValueDate" />
+  </Operation>
+</Operations>
