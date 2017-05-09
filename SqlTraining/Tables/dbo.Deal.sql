@@ -14,6 +14,6 @@
 	MaturityDate date null,
 	CurrentPrincipal decimal(22,4) not null,
 	PastDueAmount decimal(22,4) null,
-	CurrentInterestRate decimal(9,8) not null, 
-    InterestPaymentFrequency varchar(10) not null
+	CurrentInterestRate decimal(9,8) null, 
+    InterestPaymentFrequency varchar(10) null
 )

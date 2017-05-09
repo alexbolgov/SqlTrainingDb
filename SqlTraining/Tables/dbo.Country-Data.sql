@@ -5,7 +5,6 @@ using
 	('RU','RUS','Российская федерация','Russian Federation'),
 	('US','USA','Соединенные штаты Америки','United States of America'),
 	('DE','DEU','Герамания','Germany'),
-	('RU','RUS','Российская федерация','Russian Federation'),
 	('NO','NOR','Норвегия','Norway'),
 	('BY','BLR','Беларусия','Belarus'),
 	('UA','UKR','Украина','Ukraine'),

@@ -45550,9 +45550,9 @@ using
 			('NOK','2017-05-06',67.6844,10),
 			('PLN','2017-05-06',15.2087,1),
 			('USD','2017-05-06',58.5382,1)
-	) vals(BookValueDate, CurrencyIsoAlphaCode, Rate, Nominal)
+	) vals(CurrencyIsoAlphaCode, BookValueDate, Rate, Nominal)
 	join dbo.Currency cur on cur.CurrencyIsoAlphaCode = vals.CurrencyIsoAlphaCode
 ) source_data
 on source_data.CurrencyID = target_data.CurrencyID and source_data.BookValueDate = target_data.BookValueDate
-when not matched by target then insert (BookValueDate, CurrencyIsoAlphaCode, Rate, Nominal) values (source_data.BookValueDate, source_data.CurrencyIsoAlphaCode, source_data.Rate, source_data.Nominal)
-when matched then update set target_data.Rate = source_data.Rate, target_data.Nominal = source_data.Nominal;
+when not matched by target then insert (BookValueDate, CurrencyID, CurrencyRate, Nominal) values (source_data.BookValueDate, source_data.CurrencyID, source_data.Rate, source_data.Nominal)
+when matched then update set target_data.CurrencyRate = source_data.Rate, target_data.Nominal = source_data.Nominal;

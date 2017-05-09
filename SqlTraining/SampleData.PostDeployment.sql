@@ -20,3 +20,4 @@ Post-Deployment Script Template
 :r .\Tables\dbo.Client-Data.sql
 :r .\Tables\dbo.Dates-Data.sql
 :r .\Tables\dbo.Deal-Data.sql 
+
